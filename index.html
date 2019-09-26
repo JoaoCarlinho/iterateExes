@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!-- index.html-->
+<html>
+<head>
+    <title>chatBot Carousel</title>
+    <link rel="stylesheet" type="text/css" href="./chatView.css">
+</head>
+<body>
+    <div class="loader" id="loading"></div>
+    <div id="chatView">
+        <div class="form-container">
+            <h1>Welcome!!!<br/>I am a<br/> BOT</h1>
+            <textarea id="message" placeholder="Let's Chat.." name="msg" required></textarea>
+
+            <button type="submit" class="btn" id="send">Send</button>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" id="slideBox">
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+</body>
+<script src="chatView.js"></script>
+</html>

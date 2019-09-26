@@ -1,0 +1,26 @@
+{
+  "name": "iterateexes",
+  "version": "1.0.0",
+  "description": "ny times api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Johnathan Skeete <jskeete@gmail.com> (http://isefitclub.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.2",
+    "popper.js": "^1.15.0",
+    "request": "^2.88.0",
+    "requests": "^0.3.0"
+  }
+}
